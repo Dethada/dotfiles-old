@@ -1,1 +1,5 @@
-/home/david/.gitconfig
+[user]
+    name = PotatoDrug
+    email = zhy.david@gmail.com
+[core]
+    editor = vim

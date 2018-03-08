@@ -34,6 +34,7 @@ set shiftwidth=4
 set expandtab
 set formatoptions-=cro " disable auto comment on newline
 set clipboard=unnamedplus
+set shell=/bin/bash
 
 inoremap {<cr> {<cr>}<c-o><s-o>
 inoremap [<cr> [<cr>]<c-o><s-o>

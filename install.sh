@@ -6,6 +6,9 @@ git clone https://github.com/powerline/fonts.git ~/fonts --depth=1
 ~/fonts/install.sh
 rm -rf ~/fonts
 
+# vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 # oh my zsh and zsh theme
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ZSH_CUSTOM=$HOME/.oh-my-zsh/custom

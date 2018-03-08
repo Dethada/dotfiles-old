@@ -33,9 +33,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set formatoptions-=cro " disable auto comment on newline
+set clipboard=unnamedplus
 
 inoremap {<cr> {<cr>}<c-o><s-o>
 inoremap [<cr> [<cr>]<c-o><s-o>
 inoremap (<cr> (<cr>)<c-o><s-o>
- 
-colorscheme molokai

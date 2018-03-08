@@ -4,17 +4,12 @@ Broken Arch config
 
 ## Dependencies
 
-[Vundle](https://github.com/VundleVim/Vundle.vim)
-
-[powerline-fonts](https://github.com/powerline/fonts)
-
-[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
-
-[Spaceship (zsh-theme)](https://github.com/denysdovhan/spaceship-prompt)
-
-[tmux](https://github.com/tmux/tmux)
-
-[ranger (file-browser)](https://github.com/ranger/ranger)
+- [Vundle](https://github.com/VundleVim/Vundle.vim)
+- [powerline-fonts](https://github.com/powerline/fonts)
+- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
+- [Spaceship (zsh-theme)](https://github.com/denysdovhan/spaceship-prompt)
+- [tmux](https://github.com/tmux/tmux)
+- [ranger (file-browser)](https://github.com/ranger/ranger)
 
 ## Install
 

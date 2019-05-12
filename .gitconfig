@@ -1,0 +1,8 @@
+[user]
+    name = David
+    email = david@dzhy.dev
+    signingkey = 8E1508F9E630A926
+[core]
+    editor = vim
+[commit]
+    gpgsign = true

@@ -2,6 +2,9 @@
 
 # oh my zsh and zsh theme
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+# zplug
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 ZSH_CUSTOM=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}
 git clone https://github.com/denysdovhan/spaceship-prompt.git "${ZSH_CUSTOM}/themes/spaceship-prompt"
 ln -s "${ZSH_CUSTOM}/themes/spaceship-prompt/spaceship.zsh-theme" "${ZSH_CUSTOM}/themes/spaceship.zsh-theme"
@@ -14,7 +17,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # useful rust tools
 cargo install exa bat hx ripgrep fd-find tokei
 
-# get config files
+# get config files and stuff
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 wget https://raw.githubusercontent.com/PotatoDrug/dotfiles/master/.tmux.conf -P ~
 wget https://raw.githubusercontent.com/PotatoDrug/dotfiles/master/.zshrc -P ~
 

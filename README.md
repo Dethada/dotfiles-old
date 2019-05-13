@@ -4,6 +4,7 @@
 
 1. Run `sudo sh -c "$(wget https://raw.githubusercontent.com/PotatoDrug/dotfiles/master/root-install.sh -O -)"`
 2. Run `sh -c "$(wget https://raw.githubusercontent.com/PotatoDrug/dotfiles/master/user-install.sh -O -)"`
+3. Open tmux and press prefix + I (capital i, as in Install) to fetch the plugin.
 
 ## VIM
 ```
